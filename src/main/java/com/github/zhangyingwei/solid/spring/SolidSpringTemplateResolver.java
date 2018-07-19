@@ -7,11 +7,11 @@ import org.springframework.web.servlet.view.AbstractCachingViewResolver;
 
 import java.util.Locale;
 
-public class SprintSolidTemplateResolver extends AbstractCachingViewResolver implements Ordered {
+public class SolidSpringTemplateResolver extends AbstractCachingViewResolver implements Ordered {
 
     private TemplateResolver templateResolver;
 
-    public SprintSolidTemplateResolver(TemplateResolver templateResolver) {
+    public SolidSpringTemplateResolver(TemplateResolver templateResolver) {
         this.templateResolver = templateResolver;
     }
 
